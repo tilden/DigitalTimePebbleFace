@@ -5,14 +5,14 @@
 
 void bgpicker_init() {
   // first, load and set all the background colors
-  bgpicker_dayparts[0].bgColor = GColorOxfordBlue;    // night
-  bgpicker_dayparts[1].bgColor = GColorCobaltBlue;    // morning twilight
+  bgpicker_dayparts[0].bgColor = GColorLiberty;    // night
+  bgpicker_dayparts[1].bgColor = GColorLiberty;    // morning twilight
   bgpicker_dayparts[2].bgColor = GColorSunsetOrange;  // sunrise
   bgpicker_dayparts[3].bgColor = GColorVividCerulean; // midday
   bgpicker_dayparts[4].bgColor = GColorVividCerulean; // afternoon
   bgpicker_dayparts[5].bgColor = GColorOrange;        // sunset
   bgpicker_dayparts[6].bgColor = GColorLiberty;       // evening twilight
-  bgpicker_dayparts[7].bgColor = GColorOxfordBlue;    // night again
+  bgpicker_dayparts[7].bgColor = GColorLiberty;    // night again
 
   // if we have a location set in persistent storage, use that
   if (persist_exists(BGPICKER_LOC_KEY)) {
